@@ -155,8 +155,8 @@ predicted_prices = scaler.inverse_transform(predicted)
 actual_prices = scaler.inverse_transform(actual)
 
 # Plot the predictions vs actual prices
-print('Name: Sharan Kumar G')
-print('Register Number: 212224230260')
+print('Name: Saranya V')
+print('Register Number: 212223040188')
 plt.figure(figsize=(10, 6))
 plt.plot(actual_prices, label='Actual Price')
 plt.plot(predicted_prices, label='Predicted Price')
